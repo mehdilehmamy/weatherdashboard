@@ -25,9 +25,6 @@ const customStyles = {
 
 
 function  Weather() {
-    const [lat, setLat] = useState("");
-    const [long, setLong] = useState("");
-    const [city, setCity] = useState("");
 
     const { data, isLoading, errorMessage } = useOpenWeather({
         key: '22deadef4074d6f4e94ed44000f444f2',
