@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url("./back1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+.analog {
+    text-align: center;
+    width: 60%;
+    height: 50vh;
+    margin: 3rem auto 3rem auto;
+}
+
+.analog h1 {
+    font-size: 13rem;
+    font-weight: 600;
+}
+
+.analog p {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.quote {
+    margin-top: 7rem;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+}
+
+.icon {
+    position: absolute;
+    left: 82rem;
+    top: 1rem;
+}
+
+.back {
+    position: absolute;
+    z-index: -10;
+}
+
+.weather {
+    margin: 1rem auto 0 auto;
+    width: 80%;
+}
+
